@@ -60,8 +60,8 @@ return (
 				<th>Precio</th>
 				<th>Categoria</th>
 				<th>Proveedor</th>
-				<th>Stock Actual</th>
-				<th>Stock Mínimo</th>
+				<th className="text-center">Stock Actual</th>
+				<th className="text-center">Stock Mínimo</th>
 				<th className="text-center">Acciones</th>
 			</tr>
 			</thead>
