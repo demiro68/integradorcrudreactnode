@@ -31,18 +31,18 @@ return (
     <div className="row">
         <div className="col">
 			<div></div>
-			<h2 className="bg-info text-center">Manejo de un Sistema de Productos</h2>
-			<nav class="navbar navbar-expand-sm bg-success text-white">
+			<h2 className="bg-info text-center">Sistema de Productos</h2>
+			<nav class="navbar navbar-expand-sm bg-success " >
 				<div class="container-fluid">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="/">Inicio</a> 
+							<a class="nav-link" href="/" style={{ color: 'white'}}>Inicio</a> 
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/crear">Facturar</a>
+							<a class="nav-link" href="/crear" style={{ color: 'white'}}>Facturar</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/blogs">Blogs</a>
+							<a class="nav-link" href="/blogs"style={{ color: 'white'}} >Blogs</a>
 						</li>
 					</ul>
 				</div>
@@ -86,9 +86,12 @@ return (
 			</table>
         </div>
     </div>
-	<footer className="bg-warning" style={{ width: '85%', height: '40px' , position: 'absolute', bottom: '0', paddingLeft: '30px', paddingTop: '10px', paddingBottom: '5px'}}>
-		<p>Realizado por el grupo 3 de Codo a codo</p>
-	</footer>
+	<div className="container-fluid">
+		<footer className=" p-3" style={{ width: '100%', height: '60px' , bottom: '0', paddingLeft: '30px', paddingTop: '10px', paddingBottom: '5px', fontSize: '0.8em'}}>
+			<p className="text-center bg-warning p-3" style={{}}>Realizado por el grupo 3 de Codo a Codo 4.0 React Comision 22807:<br/><small>Compuesto por Daniel Sebastian Cabrera, Magdalena Arrua, Belen Fernandez, Gabriel Nahuel Quiroga,
+			Carla Gleadell, Daniel Enrique Emiro Mauthone, German Borges, Carlos Andres Lovera Rodriguez, Federico Cabrera y Jeferson Borges </small></p>
+		</footer>
+	</div>
 </div>
 
 )
